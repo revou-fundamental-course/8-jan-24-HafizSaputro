@@ -1,0 +1,57 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+.persegi {
+  max-width: 90%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #4caf50;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hitung {
+  background-color: #4caf50;
+}
+.hitung:hover {
+  background-color: #45a049;
+}
+.reset {
+  background-color: #efad4e;
+}
+.reset:hover {
+  background-color: #ed9212;
+}
+.gambar {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
